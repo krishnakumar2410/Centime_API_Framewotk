@@ -20,13 +20,13 @@ For installation, go to Pycharm: File>Setting>Project:>Python Interpreter > Add 
 From command line: pip install package_name or python -m pip install package_name
 
 #  Framework Folder Structure
-Project Name: Centime_API_Framework
->Logs: Execution logs getting stored here
->Reports : Html file gets generated here, which we can open and check execution results for __pass/fail__ in browser
->TestCases: All the api test cases are created here
->Utilities : Here logger file created to print and store the logs for each execution. Additionaly ReadProperties is there which reads the url and path of the test data file from config.ini
->Configuration: Here I have created config file where I have mentioned the common uri and data file path
-> Test Data: Here I have kept the expected values for dated 2020-12-16 in csv file which I am using under which I am comparing with response values
+- Project Name: Centime_API_Framework
+- Logs: Execution logs getting stored here
+- Reports : Html file gets generated here, which we can open and check execution results for __pass/fail__ in browser
+- TestCases: All the api test cases are created here
+- Utilities : Here logger file created to print and store the logs for each execution. Additionaly ReadProperties is there which reads the url and path of the test data file from config.ini
+- Configuration: Here I have created config file where I have mentioned the common uri and data file path
+- Test Data: Here I have kept the expected values for dated 2020-12-16 in csv file which I am using under which I am comparing with response values
 
 
 # Test Cases Covered [Most of test cases I have covered in time_seriesd_daily request. In other 4 I have just included 4-5 test cases each, we can replicate the same from time_seriesd_daily for more test cases]
